@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="colors.css">
+    <title>Colors</title>
+</head>
+<body>
+    <nav>
+        <a class="navlink" href="index.html">HOME</a>
+        <a class="navlink" href="colors.html"><strong>COLORS</strong></a>
+        <a class="navlink" href="resources.html">RESOURCES</a>
+        <a class="navlink" href="survey.html">SURVEY</a>
+    </nav>
+
+    <div class="header">
+        <h1>A LIST OF ALL EXISTING COLORS</h1>
+        <span>(in-progress) <a href="#add-color">Do you know more?</a></span>
+    </div>
+
+    <div class="color-grid">
+        <div class="color-square">
+            <a href="https://singlecolorimage.com/get/ff0000/250x250" target="_blank"><img id="color-1" src="https://singlecolorimage.com/get/ff0000/250x250" alt="the color red"></a>
+            <label for="color-1">
+                red
+            </label>
+        </div>
+
+        <div class="color-square">
+            <a href="https://singlecolorimage.com/get/ffff00/250x250" target="_blank"><img id="color-2" src="https://singlecolorimage.com/get/ffff00/250x250" alt="the color yellow"></a>
+            <label for="color-2">
+                yellow
+            </label>
+        </div>
+
+        <div class="color-square">
+            <a href="https://singlecolorimage.com/get/0000ff/250x250" target="_blank"><img id="color-3" src="https://singlecolorimage.com/get/0000ff/250x250" alt="the color blue"></a>
+            <label for="color-3">
+                blue
+            </label>
+        </div>
+
+        <div class="color-square">
+            <a href="https://singlecolorimage.com/get/008800/250x250" target="_blank"><img id="color-4" src="https://singlecolorimage.com/get/008800/250x250" alt="the color green"></a>
+            <label for="color-4">
+                green
+            </label>
+        </div>
+
+        <div class="color-square">
+            <a href="https://singlecolorimage.com/get/ffa500/250x250" target="_blank"><img id="color-5" src="https://singlecolorimage.com/get/ffa500/250x250" alt="the color orange"></a>
+            <label for="color-5">
+                orange
+            </label>
+        </div>
+
+        <div class="color-square">
+            <a href="https://singlecolorimage.com/get/df00ff/250x250" target="_blank"><img id="color-6" src="https://singlecolorimage.com/get/df00ff/250x250" alt="the color phlox"></a>
+            <label for="color-6">
+                phlox
+            </label>
+        </div>
+    </div>
+
+    <div id="add-color">
+        <fieldset>
+            <legend>Do you know more colors?</legend>
+            <label class="text-input-label" for="evidence">Link to example:</label>
+
+            <input id="evidence" type="text" name="evidence">
+            <label class="text-input-label" for="color-name">What do you call this? </label>
+
+            <input id="color-name" type="text" name="color_name">
+            <label class="text-input-label" for="details">Should we know anything else about this color?</label>
+
+            <input id="details" type="text" name="details"></input>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </div>
+</body>
