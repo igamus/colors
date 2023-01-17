@@ -14,27 +14,28 @@
     </nav>
 
     <h1>Survey</h1>
+    <form action="/colors-form-handler" method="post">
+        <fieldset>
+            <legend>if everybody in the world responds, we'll have perfect data on color</legend>
 
-    <fieldset>
-        <legend>if everybody in the world responds, we'll have perfect data on color</legend>
+            <label class="text-input-label" for="name">Name:</label>
+            <input id="name" type="text" name="name">
 
-        <label class="text-input-label" for="name">Name:</label>
-        <input id="name" type="text" name="name">
+            <label class="text-input-label" for="email">Email:</label>
+            <input id="email" type="email" name="email">
 
-        <label class="text-input-label" for="email">Email:</label>
-        <input id="email" type="email" name="email">
+            <label class="text-input-label" for="favorite-color">What is the greatest color?</label>
+            <input id="favorite-color" type="text" name="favorite_color">
 
-        <label class="text-input-label" for="favorite-color">What is the greatest color?</label>
-        <input id="favorite-color" type="text" name="favorite_color">
+            <label class="text-input-label" for="essay">Please explain (min. 5 paragraphs):</label>
+            <textarea id="essay" name="favorite_color_explanation"></textarea>
 
-        <label class="text-input-label" for="essay">Please explain (min. 5 paragraphs):</label>
-        <textarea id="essay" name="favorite_color_explanation"></textarea>
+            <div class="text-input-label">
+                <input id="subscription" type="checkbox" name="subscription">
+                <label for="subscription">I want to receive your color-of-the-day email</label>
+            </div>
 
-        <div class="text-input-label">
-            <input id="subscription" type="checkbox" name="subscription">
-            <label for="subscription">I want to receive your color-of-the-day email</label>
-        </div>
-
-        <button type="submit">Vote</button>
-    </fieldset>
+            <button type="submit">Vote</button>
+        </fieldset>
+    </form>
 </body>

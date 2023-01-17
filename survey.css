@@ -1,5 +1,9 @@
-fieldset {
+form {
     justify-self: center;
+    display: flex;
+}
+
+fieldset {
     display: flex;
     flex-direction: column;
     width: max-content;
